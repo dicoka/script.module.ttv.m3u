@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="Основные">
+		<setting default="" id="login" label="Логин" type="text" />
+		<setting default="" id="password" label="Пароль" option="hidden" type="text" />
+		<setting default="api.torrent-tv.ru" id="api_mirror" label="Зеркало API" type="labelenum" values="api.torrent-tv.ru|1ttvxbmc.top" visible="true" />
+		<setting default="default" id="m3upath" label="Папка M3U файла" type="folder" source="auto"/>
+		<setting id="sortbycategories"  label="Группировать каналы по категориям" type="bool" default="false"/>
+		<setting default="api.torrent-tv.ru" id="api_mirror" label="Зеркало API" type="labelenum" values="api.torrent-tv.ru|1ttvxbmc.top" visible="true" />
+		<setting default="127.0.0.1" id="ip_addr" label="IP-адрес acestreamengine" type="ipaddress" />
+		<setting default="8621" id="outport" label="Внеший порт AceStream" type="number" />
+	</category>
+</settings>
+</settings>

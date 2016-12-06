@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.m3u" name="TTV.M3U Generator" version="1.0.0" provider-name="dicoka@ukr.net">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="ttv.m3u.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+	<summary>Генератор M3U плейлиста для просмотра Torrent-TV в IPTV</summary>
+	<description>По умолчанию M3U файл сохраняется в папку данных плагина (в Windows: %APPDATA%\kodi\userdata\script.ttv.m3u\ttv.m3u)</description>
+	<disclaimer lang="ru_RU"></disclaimer>
+    <platform>all</platform>
+	<language></language>
+	<news></news>
+
+  </extension>
+</addon>
