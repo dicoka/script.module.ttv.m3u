@@ -64,7 +64,7 @@ def GET(target, post=None, cookie=None, headers=None, tries=1):
         for coo in cookie:
             req.add_header('Cookie', coo)
             #         req.add_header('Cookie', 'PHPSESSID=%s' % cookie)
-    while 1==1: #not isCancel():
+    while True: #not isCancel():
         t += 1
         if 0 < tries < t:
             return#raise Exception('Attempts are over')
